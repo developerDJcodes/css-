@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    font-family: "Salsa";
+}
+
+.first {
+   
+    background-color: #f99501;
+    background-image: url(./assests/orange-backdrop\ 1.png);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.lights {
+    width: 230px;
+    margin-bottom: -180px;
+}
+
+.first p {
+    font-size: 46px;
+
+    font-family: "Salsa";
+    max-width: 540px;
+}
+
+.video-para {
+    margin-left: 15rem;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: #fbd8a4;
+}
+
+.audio-container {
+    background-color: #fbd8a4;
+    max-width: max-content;
+
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-2
+{
+    background-color:#F99501;
+}
+
+
+/* section-2 */
+
+.section-2
+
+
+{
+  padding-top: 1em;
+  padding-inline: 1rem;
+}
+.ganesh-laxmi
+{
+   max-width: 900px;
+   width: 100%;
+   display: block;
+   margin-inline:auto ;
+
+}
+.horizontal-line
+{
+     
+    width: 468px;
+    height: 4px;
+    background-color:#FBD8A4;
+    
+}
+.circle
+{
+    width: 10px;
+    height: 10px;
+    background-color:#FBD8A4;
+    border-radius: 50%;
+    flex-shrink: 0;
+   
+}
+.section-2-line
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 710px;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+   
+}
+
+.section-2 h2
+{
+  font-family: 'Style Script';
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+}
+ .white-card
+ {
+    background-color: white;
+    max-width: 500px;
+    padding: 4rem;
+  border-radius: 18px;
+  display: inline-block;
+    
+ }
+ .white-card p {
+    font-size: 2rem;
+  
+ }
+ .third
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .little-girl{
+    max-width: 260px;
+    margin-left: -5rem;
+    padding:2rem 0rem;
+ }
+ .ganesh-laxmi-card-img
+ {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline:auto ;
+   
+ }
+ .last-para
+ {
+    font-size: 2rem;
+    padding: 0rem;
+ }
+ .last-para-1
+ {
+    font-family: 'Style Script';
+    font-size: 3rem;
+    text-align: left;
+  
+ }
+ .last-para-2
+ {
+    text-align: end;
+    font-size: 2rem;
+ }
+ .thank-you-text
+ {
+    padding: 2rem;
+ }
+ @media (max-width: 540px) {
+    .deepak
+    {
+        width: 100%;
+        max-width: 280px;
+    }
+    .section-2 h2
+    {
+        font-size: 32px;
+    }
+    .last-para-2
+ {
+    text-align: end;
+ }
+ .last-para-1
+ {
+    font-family: 'Style Script';
+    font-size: 2rem;
+    text-align: left;
+  
+ }
+}
+
+@media (max-width: 800px) {
+    .deepak-1 ,.audio-music-img ,.audio-soulful {
+        display: none;
+    }
+
+    .lights {
+        margin-bottom: 0px;
+    }
+
+    .deepak {
+        display: block;
+        margin-left: auto;
+    }
+  
+    .video-para {
+        margin-left: 2rem;
+    }
+    .first p
+    {
+        font-size: 33px;
+        max-width: 300px;
+    }
+     .ganesh-laxmi
+    {
+        max-width: 650px;
+        width: 100%;
+    }
+    .little-girl
+    {
+        max-width: 160px;
+    }
+    .white-card p
+    {
+        font-size: 1.25rem;
+    }
+     .white-card
+     {
+        padding-block: 1rem ;
+        padding-left: 2rem;
+     }
+    
+}
+
