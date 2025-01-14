@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    padding: 2rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+
+}
+
+.items {
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 10px;
+    font-size: 3rem;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+
+}
+
+.items-1 {
+    background-color: #BA56F6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.items-2 {
+    background-color: #FF6161;
+
+}
+
+.items-3 {
+    background-color: #505CCA;
+    grid-column-start: 4;
+    grid-row-start: -3;
+    grid-row-end: -1;
+
+}
+
+.items-4 {
+    background-color: #3DAD99;
+    ;
+}
+
+.items-5 {
+    background-color: #BE3690;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+@media (max-width:768px) {
+    .container {
+
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 200px);
+   
+
+
+    }
+
+    .items-1 {
+        background-color: #BA56F6;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .items-2 {
+        background-color: #FF6161;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+
+    .items-3 {
+        background-color: #505CCA;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+    }
+
+    .items-4 {
+        background-color: #3DAD99;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+
+    }
+
+    .items-5 {
+        background-color: #BE3690;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+
+}
+
+@media (max-width:500px) {
+    .container {
+
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .items-1 {
+        background-color: #BA56F6;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .items-2 {
+        background-color: #FF6161;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+    .items-3 {
+        background-color: #505CCA;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+    .items-4 {
+        background-color: #3DAD99;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+
+    }
+
+    .items-5 {
+        background-color: #BE3690;
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+}
