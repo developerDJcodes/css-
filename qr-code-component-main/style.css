@@ -1,47 +1,46 @@
-body{
-    min-height: 100vh;
-    padding: 0px;
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color:#D5E1EF;
 }
 
-.card
-{
+
+body {
     width: 100%;
-    width: 300px;
-    height: 500px;
-    background-color: #FFFFFF;
-    position:fixed;
-    margin: auto;
-    inset: 0px;
-    padding: 1rem;
-    border-radius: 16px;
-    box-shadow:6px 9px 3px rgb(90, 86, 86);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color:#D6E2F0 ;
+ 
+  font-family: 'Outfit';
+}
+
+.container {
+    background-color:#FFFFFF;
+    width: 100%;
+    max-width: 312px;
+    height: 502px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    
+    box-shadow: 4px 6px 30px #ded9d9;
 
 }
-.card-img
+.container  img
 {
     width: 100%;
-    max-width: 400px;
+    max-width: 310px;
     border-radius: 10px;
 }
-.card-content 
-{
-    font-family: 'Outfit';
-    font-size: 1.5rem;
-    text-align: center;
-    color:#304365;
-    font-weight: 700;
+.container h3{
+    margin-top: 1em;
+    font-size: 24px;
+    color: #1F3251;
 }
-.card-content-para
-{
-    
-    color: rgb(43, 34, 34);
-    text-align: center;
-    font-size:17px;
-    font-family: 'Outfit';
-    font-weight: 400;
-    line-height: 1.5rem;
-    opacity: 0.4;
+.container p{
+    margin: 11px;
+    font-size: 17px;
+    color: #807d7d;
 }
